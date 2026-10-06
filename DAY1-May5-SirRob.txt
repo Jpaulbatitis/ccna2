@@ -219,7 +219,7 @@ dial-peer voice 4 pots
    port 0/0/3
 end
 
-!!IP telephony or Six Digit Salary.
+!!IP telephony or Six Digit Salary. (2x)
 config t   
 no telephony-service
 telephony-service
