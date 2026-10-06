@@ -16,6 +16,7 @@ interface e1/0
 no shut
 switchport mode access
 switch access vlan 31
+do sh vlan br
 
 @S1
 conf t
@@ -46,6 +47,7 @@ interface e0/0
 no shut
 switchport mode access
 switch access vlan 32
+do sh vlan br
 
 
 @P1
@@ -77,6 +79,7 @@ interface e1/0
 no shut
 switchport mode access
 switch access vlan 33
+do sh vlan br
 
 @P2
 conf t
@@ -107,6 +110,7 @@ interface e1/0
 no shut
 switchport mode access
 switch access vlan 34
+do sh vlan br
 
 @S2
 conf t
